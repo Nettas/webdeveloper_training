@@ -1,0 +1,52 @@
+<!-- block element is an element that wiull take up the entire width of your page 
+or as much as possible -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Block vs. Inline Element</title>
+        <body>
+         <!--
+            <h1>Block Elements</h1>
+            - H1 thru H6
+            - P paragraphs
+            -->
+            <h3>Headers</h3>
+            <p style='border: 1px solid red;'>
+                Block Element Example Border 
+            </p>
+            <hr> <!--horizontal ruler-->
+        <!--
+            <h1>Inline Elements</h1>
+            - Span
+            - A Links
+            -->
+
+            <span>Span #1</span><a href="links.html">links.html</a>
+        
+            <hr>
+            <!-- Block and Inline do not work together Block will get its own line-->
+            <h1>Header Tag</h1> <span>Smaller text</span>
+        </body>
+    </head>
+</html>
+
+<hr>
+
+<html>
+    <head>
+        <title>How they come togther </title>
+        <body>
+            <!-- Parent tag or element-->
+            <p style='border: 1px solid red;'>
+                Block element #1 and this is a 
+                 <!-- Child tag or element-->
+                <a href="13relative_links1.html" style='border: 1px solid red;'>link to relative_link1.html</a>
+            </p>
+            
+            <!-- Sibling tag/element-->
+            <p style='border: 1px solid red;'>
+                This is a sibling
+            </p>
+        </body>
+    </head>
+</html>

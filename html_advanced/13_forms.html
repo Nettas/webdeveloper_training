@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form method="" action="">
+        <input type="text">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <select name="" id="">
+            <option>1</option>
+            <option>2</option>
+        </select>
+
+        <button>Button</button>
+
+    </form>
+    Hello this is a forms page
+    
+    <hr>
+<!--An input GET Method it will show up in url (NOT SECURE) and 
+    create a variable based off of name= field type with a text box and submit button-->
+    <form method="GET" action="">
+        <input type="text" name="firstname">
+        <input type="text" name="lastname">
+        <input type="submit" value="Submit">
+    </form>
+
+<hr>
+    <!--An input POST Method will NOT show up in url and 
+    create a variable based off of name= field type with a text box and submit button-->
+    <form method="POST" action="">
+        <input type="text" name="firstname">
+        <input type="text" name="lastname">
+        <input type="submit" value="Submit">
+    </form>
+<hr>
+<!--Now an action example-->
+    <form method="POST" action="13_getaction.html">
+        <input type="text" name="firstname">
+        <input type="text" name="lastname">
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
