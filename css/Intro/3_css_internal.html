@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Internal css</title>
+        <style>
+            body {
+               background-color: gainsboro; 
+            }
+            h1 {
+                background-color: blue;
+                color: white;
+            }
+            .font-red {
+                color: red;
+            }
+            #unique {
+                border: 5px solid black
+            }
+            .bg-blue {background-color: blue; }
+            .bg-yellow{ background-color: yellow; }
+            #font-size {
+                font-size: xx-large;
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <h1>Internal css</h1>
+
+        <div class="font-red" id="unique">
+            div #1
+        </div>
+        <div class="font-red" id="">
+            div #2
+        </div>
+        <div class="font-red bg-blue" id="">
+            div #3
+        </div>
+        <div class="font-red bg-yellow" id="">
+            div #4
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="font-red" id="font-size">
+            Hello World
+        </div>
+
+    </body>
+</html>
