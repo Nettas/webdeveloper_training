@@ -1,0 +1,8 @@
+h1  {
+    /* named color */
+    color: black;
+}
+    /* named hex */
+hex {
+    color: #f00000;
+}
